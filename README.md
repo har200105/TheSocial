@@ -1,16 +1,16 @@
 # thesocial
 
-A new Flutter project.
+A Flutter Social media app made using Flutter and Firebase. In this app users can login,signup, send message , follow , group chat as well post , comment and like other posts.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# Screenshots of the project
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![alt-text](./screenshots/a.jpg)
+![alt-text](./screenshots/b.jpg)
+![alt-text](./screenshots/c.jpg)
+![alt-text](./screenshots/d.jpg)
+![alt-text](./screenshots/e.jpg)
+![alt-text](./screenshots/f.jpg)
+![alt-text](./screenshots/g.jpg)
+![alt-text](./screenshots/h.jpg)
+![alt-text](./screenshots/o.jpg)
