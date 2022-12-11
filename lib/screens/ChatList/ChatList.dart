@@ -15,12 +15,15 @@ class ChatList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton: IconButton(icon: Icon(Icons.group,color: Colors.blue),onPressed:(){
-        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>ChatRoom()));
-      }),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+        floatingActionButton: IconButton(
+            icon: Icon(Icons.group, color: Colors.blue),
+            onPressed: () {
+              Navigator.pushReplacement(
+                  context, MaterialPageRoute(builder: (context) => ChatRoom()));
+            }),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
         appBar: AppBar(
-           automaticallyImplyLeading: false,
+          automaticallyImplyLeading: false,
           centerTitle: true,
           backgroundColor: constantColors.blueGreyColor,
           actions: [
@@ -30,7 +33,6 @@ class ChatList extends StatelessWidget {
                 size: 30,
                 color: constantColors.greenColor,
               ),
-              
               onPressed: () {
                 Provider.of<ProfileHelpers>(context, listen: false)
                     .logoutDialog(context);

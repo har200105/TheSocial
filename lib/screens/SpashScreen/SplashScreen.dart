@@ -23,7 +23,6 @@ class _SplashScreenState extends State<SplashScreen> {
       var prefs = await SharedPreferences.getInstance();
       bool isLoggedIn = prefs.getBool("logged") ?? true;
       if (user != null && isLoggedIn) {
-        print("dvsv");
         Provider.of<FirebaseOperations>(context, listen: false)
             .fetchUserProfileInfo(context);
         var email = prefs.getString("email");

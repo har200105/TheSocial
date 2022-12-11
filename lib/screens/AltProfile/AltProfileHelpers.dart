@@ -113,7 +113,6 @@ class AltProfileHelpers extends ChangeNotifier {
                           SizedBox(
                             width: 10,
                           ),
-                          //getting the number of followings
                           StreamBuilder<QuerySnapshot>(
                               stream: FirebaseFirestore.instance
                                   .collection('users')
